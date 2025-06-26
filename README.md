@@ -13,23 +13,23 @@ Projeto de IoT para controle remoto de um carro robótico utilizando a **platafo
 
 ## 🎯 Objetivo do Projeto
 
-Montar um carro robótico funcional, com movimentação básica, controlado via Wi-Fi através de um aplicativo desenvolvido com o **MIT App Inventor**.
+Montar um carro robótico funcional, com movimentação básica, controlado via **Bluetooth** através de um aplicativo desenvolvido com o **MIT App Inventor**.
 
 ## 🧠 Tecnologias e Ferramentas
 
 * **Microcontrolador embutido na VESPA**
 * **App Mobile**: MIT App Inventor
 * **Linguagem**: Blocos visuais (App Inventor)
-* **Comunicação**: Wi-Fi (protocolo HTTP ou sockets, a depender do app)
+* **Comunicação**: Bluetooth
 
 ## 🛠️ Montagem
 
-1. Montar o chassi da Falcon V2 com as rodas e motores.
-2. Conectar os motores à placa VESPA.
-3. Instalar as pilhas no suporte e ligar a VESPA.
-4. Conectar a VESPA à rede Wi-Fi (caso necessário).
-5. Programar os comandos de movimentação no App Inventor.
-6. Controlar o robô via celular!
+1.  Montar o chassi da Falcon V2 com as rodas e motores.
+2.  Conectar os motores à placa VESPA.
+3.  Instalar as pilhas no suporte e ligar a VESPA.
+4.  Parear a placa VESPA com o celular via Bluetooth.
+5.  Programar os comandos de movimentação no App Inventor.
+6.  Controlar o robô via celular!
 
 ---
 
@@ -48,14 +48,14 @@ Aplicativo Android com os seguintes botões de controle:
 
 ## 🚀 Como Usar
 
-1. Ligue a placa VESPA com as baterias instaladas.
-2. Certifique-se de que a VESPA e o celular estão na mesma rede Wi-Fi.
-3. Abra o aplicativo no celular.
-4. Toque nos botões de comando e observe o robô em ação.
+1.  Ligue a placa VESPA com as baterias instaladas.
+2.  Certifique-se de que o Bluetooth do celular está ativado e pareado com a VESPA.
+3.  Abra o aplicativo no celular.
+4.  Toque nos botões de comando e observe o robô em ação.
 
 ## 🧠 Aprendizados Esperados
 
 * Controle de motores com placa microcontroladora
 * Criação de interfaces móveis com o App Inventor
-* Conceitos básicos de automação e IoT
+* Conceitos básicos de automação e controle sem fio
 * Lógica de movimentação e resposta a comandos remotos
